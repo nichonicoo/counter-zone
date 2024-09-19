@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: black;
+    background-image: url(image/battlefield-1-game-post-war-destruction-wallpaper-5120x2160_16.jpg);
+}
+
+.contact-width{
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.contact{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.contact header .logo h2 a{
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.background-video{
+    top: 0px;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.contact header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+    padding: 5px 10px;
+}
+
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus {
+    border-bottom: 2px solid white;
+}
+
+nav ul li.btn {
+    margin-left: auto;
+    padding: 0;
+}
+
+nav ul li.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .4s;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li.btn a:hover,
+nav ul li.btn a:focus {
+    border-bottom: 2px solid white;
+}
+
+.contact-content {
+    padding-top: 20px;
+}
+
+.contact-content .main-contact {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+
+.contact-content h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 18px;
+    color: white;
+}
+
+.contact-form form {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #f5dca8;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-content .main-contact {
+    text-align: center;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.contact-content h1 {
+    font-size: 32px; 
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px; 
+}
+
+.contact-content p {
+    font-size: 18px; 
+    color: white;
+    margin-bottom: 20px; 
+}
+
+.contact-form form {
+    margin-top: 30px;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 150px; 
+}
+
+.form-group button {
+    padding: 12px 24px; 
+    background-color: #f5dca8;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background-color: black;
+    background-image: url(image/battlefield-5-review-screenshot4_feature.jpg);
+  }
+  
+  .download-width {
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  .download {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .download header .logo h2 a {
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .background-video {
+    top: 0px;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .download header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+    padding: 5px 10px;
+  }
+  
+  nav ul li:not(:last-child) a:hover,
+  nav ul li:not(:last-child) a:focus {
+    border-bottom: 2px solid white;
+  }
+  
+  nav ul li.btn {
+    margin-left: auto;
+    padding: 0;
+  }
+  
+  nav ul li.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .4s;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  nav ul li.btn a:hover,
+  nav ul li.btn a:focus {
+    border-bottom: 2px solid white;
+  }
+  
+  .download-content {
+    padding-top: 20px;
+  }
+  
+  .download-content .main-download {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+  }
+  
+  .download-content h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .download-content h1.download-heading {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  
+  .download-content p {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .download-options {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .download-options h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .platform-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .platform-list li {
+    margin-right: 10px;
+  }
+  
+  .platform-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f8c25a;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .platform-btn:hover {
+    background-color: #f2d077;
+  }
+  
+  .download-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn-download {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #e85a5a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-download:hover {
+    background-color: #cc4b4b;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .download-content .main-download {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .download-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .download-button {
+    margin-top: 30px;
+  }
+  
+  @media (min-width: 768px) {
+    .download-content .main-download {
+      max-width: 800px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .download-content .main-download {
+      max-width: 1000px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .download-content .main-download {
+      max-width: 1200px;
+    }
+  }
+  
